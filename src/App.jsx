@@ -22,7 +22,7 @@ const Entete = ()=>{
        
 
         <p className="afriying margintop">
-            <span className = "red">Nom : </span> Afriying Tchenem
+            <span className = "red">Nom : </span> Malware
         </p>
 
         <p className = "afriying">
@@ -219,7 +219,11 @@ function App() {
       
 
      <Body />
-   
+      
+    <div className ="virus">
+
+
+    </div>
 
 
    </div>
