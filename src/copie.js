@@ -73,25 +73,26 @@ const Body = ()=>{
     <div className = "body">
 
      <ul className ="ul_first">
-        <li className = "titre">Profil</li>
-          
+        <li className = "titre">Profile</li>
+          <div className = "container">
             <Text text= {texte_profile} />
-         
+          </div>
         
         <li className = "titre">Formation initiale</li>
-          
+          <div className = "container" >
+
             <ul className = "ul_formation formation">
                 <li>2019-2022 : <span className = "special">ENSTP de yaoundé </span></li>
                 <li>2018-2019 : <span className = "special">UY1 filière informatique </span></li>
                 <li>2015-2016 : <span className = "special">BACC C au lycée de Maroua Domayo </span></li>
       
             </ul>
-         
-        <li className = "titre">Compétences</li>
+          </div>
+        <li className = "titre">Compétenses</li>
 
-         
+          <div className ="container" >
             <ul className = "ul_competence">
-                <li className ="system decale">système d'exploitation</li>
+                <li className ="system">systeme d'exploitation</li>
 
                      <ul className = "ul_system ul_formation top">
                           
@@ -104,7 +105,7 @@ const Body = ()=>{
                               <li>Configuration de VPN et de tunnels chiffrés (OpenVPN)</li>
 
                             </ul>
-                          <li className="linux">Windows</li>
+                          <li className="linux">Window</li>
                             <ul className = "ul_window">
                               <li>Installation et configuration initiale du système</li>
                               <li>Gestion des partitions et formats (NTFS, exFAT)</li>
@@ -132,10 +133,10 @@ const Body = ()=>{
                      </ul>
                 <li className = "top system">dev web/mobile</li>
                   <ul className="ul_dev_web">
-                    <li>langages de programmation</li>
+                    <li>langage de programmation</li>
                       <ul className = "ul_langage">
-                        <li>javascript, html, css, python, sql, kotlin</li>
-                        <li>react, fastify, flask, PostgreSql, react-native</li>
+                        <li>javascript, html, css, python, php, sql, kotlin</li>
+                        <li>react, fastify, flask, ralavel, postgreeSql, react-native</li>
 
 
                       </ul>
@@ -154,8 +155,8 @@ const Body = ()=>{
       
             </ul>
 
-        
-        <li className = "titre">Expériences Professionnelles</li>
+          </div>
+        <li className = "titre">Expériences Professionnelle</li>
           <ul>
               <li className="secretaire red_secretaire">Secrétaire principale – Lycée de Maga (2022–2023)</li>
                 <ul className = "ul_secretaire">
@@ -186,7 +187,7 @@ const Body = ()=>{
 
 
           </ul>
-        <li className = "titre">Centres d’intérêt</li>
+        <li className = "titre">Centres d'intéret</li>
           <ul className ="ul_interet">
             <li>Basket</li>
             <li>Mangas</li>

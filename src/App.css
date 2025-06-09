@@ -42,29 +42,47 @@
   padding-bottom: 1%;
   gap: 7%;
   display: flex;
- 
+  
  
 }
 
 .div_presentation{
- 
+  font-weight: 1000;
 
-  width: 60%;
+  width: 80%;
   
   display: flex;
 
   font-size: 18px;
   
   flex-direction: column;
-  gap: 5%;
+  
   padding-top: 7%;
   padding-left: 1%;
   padding-right: 2%;
 }
 
+.espace{
+  background-color: white;
+  color: white;
+  height: 10vh;
+
+}
+
 .body{
-  background-color: yellow;
-  margin-bottom: 1000px;
+
+ 
+}
+
+.text{
+ 
+  padding-right: 30px;
+
+}
+
+.titre{
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .red{
   
@@ -72,7 +90,7 @@
 }
 
 .formation{
-  color: red;
+ 
   font-weight: 900;
   
 }
@@ -83,33 +101,20 @@
 }
 .afriying{
   
-  font-weight: 100;
+  font-weight: 700;
   letter-spacing: 3px;
   
   padding-left: 5%;
 
 }
 
-.tchenem{
-  padding-left: 30%;
-}
 
 
-.container{
 
-  margin-top: 1%;
-  border: solid transparent 1px;
-  border-top-color: rgba(255, 0, 0, 0.2);
-  border-left-color: rgba(255, 0, 0, 0.2);
-
-  width: 80%;
-
-  padding:2%;
-
-}
 
 .ul_first{
   list-style-type:square;
+  padding: 15px;
 }
 
 .linux{
@@ -137,20 +142,31 @@
 .ul_system,.ul_dev_web,.ul_maintenance,.ul_langue,.ul_interet{
   font-weight: 600;
   list-style-type: "➢ ";
-  padding-left: 5%;
+  padding-left:5%;
   margin-top:  1%;
 
 }
 
 .ul_secretaire,.ul_technicien{
   list-style-type: "➢ ";
-  padding-left :10%;
+  padding-left :17%;
+}
+
+.red_secretaire{
+  color: red;
+  margin-top: 10px;
+
+}
+
+.decale{
+  margin-top: 5px;
 }
 
 .red_secretaire,.ul_langue,.ul_interet{
 
  
-  font-weight: 100;
+  font-weight: 800;
+
 
 }
 .top{
@@ -192,11 +208,39 @@
   padding-top: 10%;
 }
 
+  
+
+@media(max-width:500px){
+  .div_presentation{
+    font-size: 12px;
+
+  }
+
+  .system{
+    margin-top: 5px;
+    font-size: 18px;
+
+  }
+
+  .body{
+    font-size: 12px;
+  }
+
+.red_secretaire{
+ 
+  font-size: 17px;
+}
+
+}
 
 
 
 
-
+.numero{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
 
 
 
