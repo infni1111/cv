@@ -1,0 +1,203 @@
+/* Déclaration de la police */
+@font-face {
+  font-family: 'Edu NSW ACT Hand Pre';
+  src: url('/fonts/EduNSWACTHandPre-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 700; /* Plage de poids supportée */
+  font-style: normal;
+  font-display: swap; /* Évite le FOIT (Flash of Invisible Text) */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.div_app{
+
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+
+.div_img{
+ 
+  width: 20%;
+  border-bottom-left-radius: 50%;
+  
+}
+
+.entete{
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  gap: 7%;
+  display: flex;
+ 
+ 
+}
+
+.div_presentation{
+ 
+
+  width: 60%;
+  
+  display: flex;
+
+  font-size: 18px;
+  
+  flex-direction: column;
+  gap: 5%;
+  padding-top: 7%;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.red{
+  
+  font-weight: 900;
+}
+
+.formation{
+  color: red;
+  font-weight: 900;
+  
+}
+
+.special{
+  color: black;
+  font-weight: 400;
+}
+.afriying{
+  
+  font-weight: 100;
+  letter-spacing: 3px;
+  
+  padding-left: 5%;
+
+}
+
+.tchenem{
+  padding-left: 30%;
+}
+
+
+.container{
+
+  margin-top: 1%;
+  border: solid transparent 1px;
+  border-top-color: rgba(255, 0, 0, 0.2);
+  border-left-color: rgba(255, 0, 0, 0.2);
+
+  width: 80%;
+
+  padding:2%;
+
+}
+
+.ul_first{
+  list-style-type:square;
+}
+
+.linux{
+  font-weight: 600;
+}
+.ul_formation{
+
+  padding-top: 1%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: disc;
+  list-style-position:outside;
+}
+
+.ul_competence,.secretaire,.technicien{
+  background-color: yeldlow;
+   padding-left: 5%;
+   list-style-position: inside;
+
+   list-style-type: disc;
+}
+
+.ul_system,.ul_dev_web,.ul_maintenance,.ul_langue,.ul_interet{
+  font-weight: 600;
+  list-style-type: "➢ ";
+  padding-left: 5%;
+  margin-top:  1%;
+
+}
+
+.ul_secretaire,.ul_technicien{
+  list-style-type: "➢ ";
+  padding-left :10%;
+}
+
+.red_secretaire,.ul_langue,.ul_interet{
+
+ 
+  font-weight: 100;
+
+}
+.top{
+  margin-top: 3%;
+}
+
+.system{
+  color: red;
+  font-weight:700;
+  font-size: 18px;
+}
+
+.ul_linux,.ul_window,.ul_debian,.ul_langage{
+  color: black;
+  font-weight: 100;
+  padding-left: 5%;
+  list-style-type:"→ ";
+  list-style-position: outside;
+}
+
+.special_maintenance{
+ 
+  font-weight: 100;
+}
+
+.body{
+  padding-left: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+
+.titre{
+  color: rgb(65, 105, 255);
+  font-size: 20px;
+  font-weight: 1000;
+  padding-top: 10%;
+}
+
+
+
+ul li::marker {
+
+  
+ 
+}
+
+
+
+
+
+
+
